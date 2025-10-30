@@ -21,6 +21,7 @@ dependencies = [
     "pyasn1>=0.6.1",
     "pycparser>=2.23",
     "pyopenssl>=25.3.0",
+    "python-dotenv>=1.2.1",
     "service>=0.6.0",
     "six>=1.17.0",
     "sqlparse>=0.5.3",

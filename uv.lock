@@ -221,6 +221,7 @@ dependencies = [
     { name = "pyasn1" },
     { name = "pycparser" },
     { name = "pyopenssl" },
+    { name = "python-dotenv" },
     { name = "service" },
     { name = "six" },
     { name = "sqlparse" },
@@ -248,6 +249,7 @@ requires-dist = [
     { name = "pyasn1", specifier = ">=0.6.1" },
     { name = "pycparser", specifier = ">=2.23" },
     { name = "pyopenssl", specifier = ">=25.3.0" },
+    { name = "python-dotenv", specifier = ">=1.2.1" },
     { name = "service", specifier = ">=0.6.0" },
     { name = "six", specifier = ">=1.17.0" },
     { name = "sqlparse", specifier = ">=0.5.3" },
@@ -377,6 +379,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/3d/37/4f10e37bdabc058a32989da2daf29e57dc59dbc5395497f3d36d5f5e2694/python_daemon-3.1.2.tar.gz", hash = "sha256:f7b04335adc473de877f5117e26d5f1142f4c9f7cd765408f0877757be5afbf4", size = 71576, upload_time = "2024-12-03T08:41:07.843Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/45/3c/b88167e2d6785c0e781ee5d498b07472aeb9b6765da3b19e7cc9e0813841/python_daemon-3.1.2-py3-none-any.whl", hash = "sha256:b906833cef63502994ad48e2eab213259ed9bb18d54fa8774dcba2ff7864cec6", size = 30872, upload_time = "2024-12-03T08:41:03.322Z" },
+]
+
+[[package]]
+name = "python-dotenv"
+version = "1.2.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f0/26/19cadc79a718c5edbec86fd4919a6b6d3f681039a2f6d66d14be94e75fb9/python_dotenv-1.2.1.tar.gz", hash = "sha256:42667e897e16ab0d66954af0e60a9caa94f0fd4ecf3aaf6d2d260eec1aa36ad6", size = 44221, upload_time = "2025-10-26T15:12:10.434Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/14/1b/a298b06749107c305e1fe0f814c6c74aea7b2f1e10989cb30f544a1b3253/python_dotenv-1.2.1-py3-none-any.whl", hash = "sha256:b81ee9561e9ca4004139c6cbba3a238c32b03e4894671e181b671e8cb8425d61", size = 21230, upload_time = "2025-10-26T15:12:09.109Z" },
 ]
 
 [[package]]
